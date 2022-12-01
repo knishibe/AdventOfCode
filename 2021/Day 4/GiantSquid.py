@@ -22,6 +22,6 @@ for num in callNumbers:
 
 print(winningNum)
 print(winningBingoSheet)
-print(helper.getSum(winningBingoSheet)*int(winningNum))
+print(helper.getSum(winningBingoSheet) * int(winningNum))
 
 

@@ -8,4 +8,4 @@ seaMap = [[0 for i in maxCoord] for j in maxCoord]
 
 for i in range(0, int(len(coordinates)/2), 2):
 
-    helper.updateMap(seaMap, coordinates[i], coordinates[i+1])
+    helper.updateMap(seaMap, coordinates[i], coordinates[i + 1])
